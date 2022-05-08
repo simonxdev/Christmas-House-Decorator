@@ -1,0 +1,35 @@
+<html>
+    <head><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Mountains+of+Christmas:wght@700&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="index.css">
+    </head>
+    <body>
+        <div class="container">
+            <div class="santa santaanimate">🎅</div>
+            <button id="btnicons" class="btn">Add Emojis 😊</button>
+            <h1 class="title">✨ House Decorator ✨</h1>
+            <p id="house">🏡</p>
+            Activate: <input type="checkbox" class="decorator" id="decorator">
+            <label for="decorator"></label>
+            <div class="emojislistcount">Emojis in List: <span id="countemojis">1</span></div>
+            <div id="emojipopup" class="chooseicons animate hidden">
+                <label for="chooseicons">Choose Icons to add:</label>
+                <select id="iconlist" name="iconlist">
+                <option value="🎄">🎄</option>
+                <option value="🎅">🎅</option>
+                <option value="☃️">☃️</option>
+                <option value="🎁">🎁</option>
+                <option value="❤️">❤️</option>
+                <option value="✨">✨</option>
+                </select>
+                <div class="emojislistcount">Emojis in List: <span id="countemojis2">1</span></div>
+                <button id="btnaddtostart" class="btn">Add to Start</button><button id="btnaddtoend" class="btn">Add to End</button>
+                <button id="exit" class="btn">Go back</button>
+            </div>
+        </div>
+        
+        <script src="index.js"></script>
+    </body>
+</html>
